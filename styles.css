@@ -1,4 +1,7 @@
 main {
+  position: absolute;
+  top: 0px;
+  left: 310px;
   background-color: white; 
   font-family: open sans;
   padding: 0px 20px;
@@ -31,4 +34,44 @@ code {
 
 section:last-of-type {
     padding-bottom: 100px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 300px;
+    min-width: 290px;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+.nav-h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: open sans;
+    font-weight: 300;
+}
+
+.nav-ul {
+    height: 88%;
+    padding:0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.nav-ul li{
+    border-top: solid;
+    border-color:rgba(0, 22, 22, 0.4);
+    padding: 10px 30px;
+    font-family: open sans;
+    font-size: 1rem;
+}
+
+.nav-ul a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
