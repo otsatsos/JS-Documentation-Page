@@ -17,3 +17,13 @@ main {
 .main-ul li {
     padding: 5px 0px;
 }
+
+code {
+    display: block;
+    white-space: pre-line;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 1.5;
+    font-size: 0.8rem;
+}
