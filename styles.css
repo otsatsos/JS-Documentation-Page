@@ -1,12 +1,13 @@
 main {
   background-color: white; 
   font-family: open sans;
-  padding: 5px 20px;
+  padding: 0px 20px;
+  text-align: left;
 }
 
 .main-h2 {
-    font-size: 1.6rem;
-    font-weight: normal;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 .main-p, .main-ul {
@@ -26,4 +27,8 @@ code {
     border-radius: 5px;
     line-height: 1.5;
     font-size: 0.8rem;
+}
+
+section:last-of-type {
+    padding-bottom: 100px;
 }
